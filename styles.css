@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    font-family: 'Roboto Condensed', sans-serif, arial;
+    padding: 0;
+    background-color: #bbcebe;
+    max-width:1400px;
+    margin: 0 auto;
+}
+
+header, nav, section, article, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: White;
+    border-radius: 8px; /* Add rounded corners to all blocks */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* add shadows to the blocks */
+}
+
+header {
+    text-align: center;
+    background-color: #455f4b; 
+    color: #fff;
+}
+
+img {
+    border-radius: 10px; /* Add rounded corners to images */
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+div#more-info {
+    display: none;
+}
+
+button#more, button#add, button#remove {
+    font-size: 20px;
+    background-color: #c91e00bb;  /* Red buttons */
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease /* Smooth color transition on hover */
+}
+
+button#more:hover, button#add:hover, button#remove:hover {
+    background-color: #811401bb; /* Darker red on hover */
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: Black;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #83b68f; /* color: #333;Change color on hover to light green */
+}
+    
+section h2, article h3, footer p {
+    color: Black;
+}
+
+section p, section ol {
+    color: White;
+}
+
+article p {
+    color: Black;
+}
+
+section {
+    background-color: #73916b; /* Light green background for sections */
+}
+
+article {
+    background-color: #a1bb8c; /* Light green background for articles */
+}
+
+#contact-form {
+    display: grid; /*grid-template-columns: 1fr;*/
+    gap: 15px;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #c91e00bb; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#contact-form button:hover {
+    background-color: #811401bb; 
+}
+
+footer {
+    text-align: center;
+    background-color: #455f4b; /* Dark green background for footer */
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    nav {
+        display: none; /* Hide navigation for smaller devices */
+    }
+
+}
+
+@media print {
+    /* Styles for print version */
+    nav {
+        display: none; /* Hide navigation for print */
+    }
+}

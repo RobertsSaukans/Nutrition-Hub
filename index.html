@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Nutrition Hub</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <h1>Nutrition Hub</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about"><b>About</b></a></li>
+            <li><a href="#services"><b>Services</b></a></li>
+            <li><a href="#articles"><b>Articles</b></a></li>
+            <li><a href="#form"><b>Form</b></a></li>
+            <li><a href="#contact"><b>Contact</b></a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Nutrition Hub, your go-to source for all things related to nutrition and healthy living. We're dedicated to providing you with accurate and up-to-date information to help you make informed choices about your diet and lifestyle.</p>
+        <img src="https://client-apps.co.za/choice/wp-content/uploads/2018/04/7-2.png" alt="Nutrition Image">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>At Nutrition Hub, we offer a range of services to support your health and wellness journey:</p>
+        <ol>
+            <li>Nutritional Consultations</li>
+            <li>Meal Planning</li>
+            <li>Weight Management</li>
+            <li>Recipe Ideas</li>
+        </ol>
+    </section>
+
+    <section id="articles">
+        <h2>Latest Articles</h2>
+            <a class="article-link" href="https://www.health.harvard.edu/blog/10-superfoods-to-boost-a-healthy-diet-2018082914463" target="_blank">
+                <article>
+                    <h3>Top 10 Superfoods for a Healthy Diet</h3>
+                    <p><i>Discover the nutritional powerhouses that should be a part of your daily meals.</i></p>
+                </article>
+            </a>
+            
+            <a class="article-link" href="https://www.cdc.gov/healthyweight/healthy_eating/water-and-healthier-drinks.html" target="_blank">
+                <article>
+                    <h3>Benefits of Drinking Water</h3>
+                    <p><i>Learn about the importance of staying hydrated and its impact on your overall health.</i></p>
+                </article>
+            </a>
+            
+            <button id="more">More articles</button>
+            <div id="more-info">
+            <a class="article-link" href="https://wellbeing.jhu.edu/blog/2022/12/09/timing-is-everything-why-eating-on-a-regular-schedule-supports-overall-well-being/#:~:text=breakfast%20within%202%20hours%20of,on%20high%20fiber%20%2B%20lean%20protein." target="_blank">
+                <article>
+                    <h3>Timing is everything</h3>
+                    <p><i>why eating on a regular schedule supports overall well being.</i></p>
+                </article>
+            </a>
+            
+            <a class="article-link" href="https://www.who.int/initiatives/behealthy/healthy-diet#:~:text=A%20healthy%20diet%20is%20essential,are%20essential%20for%20healthy%20diet." target="_blank">
+                <article>
+                    <h3>Benefits of a healthy diet</h3>
+                    <p><i>A healthy diet is essential for good health and nutrition.</i></p>
+                </article>
+            </a>
+            </div>
+        
+    </section>
+
+    <section id="form">
+        <h2>Get in Touch</h2>
+        <form id="contact-form" action="https://www.w3schools.com/action_page.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" >
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need personalized advice? Contact our nutrition experts today!</p>
+        <p>Email: <a href="mailto:info@nutritionhub.com">info@nutritionhub.com</a></p>
+    </section>
+
+    <br>
+    <button id="add">Add</button>
+    <button id="remove">Remove</button>
+
+    <footer id="footer" class="footer">
+        <p>&copy; 2024 Nutrition Hub. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
